@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Khushi Parmar | Full-Stack Developer & AI/ML Enthusiast</title>
+<meta name="description" content="Portfolio of Khushi Parmar, a Computer Science (AIML) student focused on full-stack development, AI/ML and intelligent software systems.">
+<meta property="og:title" content="Khushi Parmar | Full-Stack Developer & AI/ML Enthusiast">
+<meta property="og:description" content="Computer Science (AIML) student focused on full-stack development, AI/ML and intelligent software systems.">
+<meta property="og:type" content="website">
+<style>
+:root{--bg:#0a0a0b;--card:#111113;--line:#222226;--tx:#f2f2f0;--mu:#8b8b93;--ac:#7c9cff;--nav:rgba(10,10,11,.75);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#0a0a0b}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+section{padding:88px 0;position:relative}
+h2{font-size:clamp(26px,4vw,36px);letter-spacing:-.02em;margin:0 0 32px;line-height:1.2}
+.eyebrow{font:500 12px/1 ui-monospace,Menlo,monospace;color:var(--ac);letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px;display:block}
+p{color:var(--mu);margin:0 0 14px}
+header{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:.3s;border-bottom:1px solid transparent}
+header.s{background:var(--nav);backdrop-filter:blur(12px);border-color:var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:600;letter-spacing:-.01em}
+.links{display:flex;gap:22px;align-items:center}
+.links a{font-size:14px;color:var(--mu);transition:.2s}.links a:hover,.links a.on{color:var(--tx)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:10px;font-size:14px;font-weight:500;border:1px solid var(--line);background:transparent;color:var(--tx);transition:.2s;cursor:pointer;font-family:inherit}
+.btn:hover{border-color:#44444c;transform:translateY(-1px)}
+.btn.p{background:var(--tx);color:#0a0a0b;border-color:var(--tx)}.btn.p:hover{background:#fff}
+.burger{display:none;background:none;border:1px solid var(--line);color:var(--tx);border-radius:8px;width:40px;height:40px;cursor:pointer;font-size:18px}
+@media(max-width:860px){.burger{display:block}.links{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:var(--bg);border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .3s;padding:0 20px}.links.o{max-height:480px;padding:8px 20px 16px}.links a{padding:12px 0;font-size:16px}}
+#hero{min-height:100vh;display:flex;align-items:center;padding-top:110px;overflow:hidden}
+#grid{position:absolute;inset:0;width:100%;height:100%;opacity:.5;pointer-events:none}
+#hero:before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 20% 30%,rgba(124,156,255,.12),transparent 70%);pointer-events:none}
+#hero .wrap{position:relative}
+h1{font-size:clamp(36px,7vw,68px);line-height:1.05;letter-spacing:-.035em;margin:0 0 24px;max-width:14em}
+h1 span{color:var(--mu)}
+.lead{font-size:clamp(16px,2vw,19px);max-width:38em}
+.row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.soc{margin-top:36px}.soc a{color:var(--mu);font-size:14px;transition:.2s}.soc a:hover{color:var(--tx)}
+.soc{display:flex;gap:22px}
+.two{display:grid;grid-template-columns:1.3fr 1fr;gap:48px}
+@media(max-width:820px){.two{grid-template-columns:1fr;gap:28px}}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;transition:.25s}
+.card:hover{border-color:#3a3a42;transform:translateY(-2px)}
+.card small{display:block;color:var(--mu);font:500 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+.card b{font-weight:600;font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+.tag{font:12px/1 ui-monospace,Menlo,monospace;padding:7px 10px;border:1px solid var(--line);border-radius:999px;color:#c4c4cc;background:rgba(255,255,255,.02)}
+.sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.sk h3{font-size:14px;margin:0 0 4px;color:var(--tx)}
+.tl{border-left:1px solid var(--line);margin-left:6px;padding-left:28px;position:relative}
+.tl:before{content:"";position:absolute;left:-5px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--ac)}
+.tl h3{margin:0;font-size:20px}.tl .meta{color:var(--mu);font-size:14px;margin:4px 0 14px}
+ul{margin:0 0 6px;padding-left:18px;color:var(--mu)}li{margin-bottom:6px}
+.feat{padding:clamp(24px,4vw,44px);background:linear-gradient(160deg,#141418,#0e0e10);border:1px solid #2a2a30;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.feat h3{font-size:clamp(24px,4vw,34px);letter-spacing:-.02em;margin:6px 0 12px;line-height:1.15}
+.badge{display:inline-block;font-size:12px;padding:5px 10px;border-radius:999px;background:rgba(124,156,255,.12);color:var(--ac);border:1px solid rgba(124,156,255,.3)}
+.fl{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 24px;list-style:none;padding:0;margin:22px 0}
+.fl li{color:#c4c4cc;padding-left:18px;position:relative}.fl li:before{content:"→";position:absolute;left:0;color:var(--ac)}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:20px}
+.pg .card{padding:26px;display:flex;flex-direction:column}
+.num{font:12px ui-monospace,Menlo,monospace;color:var(--ac)}
+.pg h3{margin:8px 0 10px;font-size:20px;letter-spacing:-.01em}
+.pg ul{font-size:14px;margin-top:8px}
+.grow{flex:1}
+.cta{text-align:center;border:1px solid var(--line);border-radius:22px;padding:clamp(32px,6vw,64px) 20px;background:radial-gradient(500px 200px at 50% 0,rgba(124,156,255,.1),transparent 70%),var(--card)}
+.cta .row{justify-content:center}.cta p{max-width:32em;margin:0 auto 14px}
+.ct{text-align:center}.ct p{max-width:34em;margin:0 auto 14px}.ct .row{justify-content:center}
+footer{border-top:1px solid var(--line);padding:40px 0;color:var(--mu);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between}
+footer nav{height:auto;gap:18px;flex-wrap:wrap;justify-content:flex-start}footer a:hover{color:var(--tx)}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header id="hd"><div class="wrap"><nav aria-label="Primary">
+<a class="logo" href="#home">Khushi Parmar</a>
+<button class="burger" id="bg" aria-label="Toggle menu" aria-expanded="false">☰</button>
+<div class="links" id="lk">
+<a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#research">Research</a><a href="#contact">Contact</a>
+<a class="btn p" href="#contact">Let's Connect</a></div></nav></div></header>
+
+<main>
+<section id="hero"><canvas id="grid" aria-hidden="true"></canvas><div class="wrap">
+<span class="eyebrow">B.Tech CSE (AIML) • Full-Stack Developer • AI/ML</span>
+<h1>Building intelligent software <span>for real-world problems.</span></h1>
+<p class="lead">I'm Khushi Parmar, a Computer Science (AIML) student focused on building full-stack applications and AI-powered systems that combine practical engineering with intelligent automation.</p>
+<div class="row"><a class="btn p" href="#projects">View Projects</a><a class="btn" href="#" download="Khushi_Parmar_Resume.pdf" title="Replace with your resume file">Download Resume</a></div>
+<div class="soc"><a href="#" aria-label="GitHub (add URL)">GitHub</a><a href="#" aria-label="LinkedIn (add URL)">LinkedIn</a><a href="mailto:khushiparmar3124@gmail.com">Email</a></div>
+</div></section>
+
+<section id="about"><div class="wrap rv"><span class="eyebrow">01 — About</span><h2>About Me</h2>
+<div class="two"><div>
+<p>I'm a B.Tech Computer Science and Engineering (AIML) student at Jagran Lakecity University, Bhopal, with a strong interest in full-stack development and AI/ML.</p>
+<p>I enjoy building practical software, solving problems, and exploring intelligent automation. I contribute to open-source projects, where I work with issues, documentation and collaborative code review.</p></div>
+<div class="cards">
+<div class="card"><small>Education</small><b>B.Tech CSE (AIML)</b></div>
+<div class="card"><small>University</small><b>Jagran Lakecity University</b></div>
+<div class="card"><small>CGPA</small><b>8.2 / 10</b></div>
+<div class="card"><small>Location</small><b>Bhopal, India</b></div></div></div></div></section>
+
+<section id="skills"><div class="wrap rv"><span class="eyebrow">02 — Skills</span><h2>Skills</h2>
+<div class="sk" id="skg"></div></div></section>
+
+<section id="experience"><div class="wrap rv"><span class="eyebrow">03 — Experience</span><h2>Experience</h2>
+<div class="tl"><h3>Open Source Contributor — GSSoC'26</h3>
+<div class="meta">GirlScript Summer of Code · May 2026 – Present</div>
+<ul><li>Contributing to open-source software projects through GitHub-based development.</li><li>Working on issue resolution and documentation.</li><li>Collaborating with maintainers and contributors.</li><li>Applying version control, debugging, code organization and code review practices.</li></ul>
+<div class="tags"><span class="tag">GitHub</span><span class="tag">Open Source</span><span class="tag">Collaboration</span></div></div></div></section>
+
+<section id="projects"><div class="wrap rv"><span class="eyebrow">04 — Projects</span><h2>Projects</h2>
+<article class="feat"><span class="badge">Featured · Ongoing</span>
+<h3>JARP — Job Application Readiness Platform</h3>
+<p style="max-width:40em">An AI-powered platform combining resume tailoring and mock interview preparation to improve job application readiness and ATS compatibility.</p>
+<ul class="fl"><li>Job Description Analysis</li><li>ATS Matching Score</li><li>AI Resume Tailoring</li><li>Resume Diff Preview</li><li>PDF Export</li><li>Role-Specific Mock Interviews</li><li>Whisper Audio Transcription</li><li>Timestamped Speech Feedback</li></ul>
+<div class="tags" style="margin-bottom:24px"><span class="tag">Python</span><span class="tag">React.js</span><span class="tag">Tailwind CSS</span><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span><span class="tag">Whisper</span><span class="tag">Ollama / Local LLM</span><span class="tag">Docker</span><span class="tag">JWT</span></div>
+<div class="row" style="margin-top:0"><a class="btn p" href="#">View Project</a><a class="btn" href="#">GitHub</a></div></article>
+<div class="pg">
+<article class="card"><span class="num">02</span><h3>Explainable Brain Tumor Diagnosis System</h3>
+<p>Deep learning classification system for MRI-based brain tumor identification across approximately 7,000 images, with Grad-CAM and SHAP visual explanations.</p>
+<ul><li>MRI classification</li><li>ResNet50 &amp; EfficientNetB0</li><li>Grad-CAM &amp; SHAP explanations</li><li>Confidence-based predictions</li></ul><div class="grow"></div>
+<div class="tags"><span class="tag">ResNet50</span><span class="tag">EfficientNetB0</span><span class="tag">Grad-CAM</span><span class="tag">SHAP</span><span class="tag">Explainable AI</span><span class="tag">Computer Vision</span></div>
+<div class="row"><a class="btn" href="#">GitHub</a></div></article>
+<article class="card"><span class="num">03</span><h3>Skin Disease Prediction Model</h3>
+<p>Deep learning ensemble model for multi-class skin disease classification using a balanced dataset of approximately 12,000 images.</p>
+<ul><li>EfficientNetB0 + MobileNetV2 ensemble</li><li>Data augmentation</li><li>Flask deployment &amp; user authentication</li><li>Real-time prediction</li></ul><div class="grow"></div>
+<div class="tags"><span class="tag">EfficientNetB0</span><span class="tag">MobileNetV2</span><span class="tag">Flask</span><span class="tag">TensorFlow</span><span class="tag">Computer Vision</span></div>
+<div class="row"><a class="btn" href="#">GitHub</a></div></article></div></div></section>
+
+<section id="research"><div class="wrap rv"><span class="eyebrow">05 — Research &amp; Certifications</span><h2>Research &amp; Certifications</h2>
+<div class="sk">
+<div class="card"><small>Research</small><b>Waste to Wealth</b><p style="margin:6px 0 0">Research Presentation — MANIT, Bhopal</p></div>
+<div class="card"><small>Research</small><b>Plastic Waste Infrastructure</b><p style="margin:6px 0 0">Research Presentation — SIRT, Bhopal</p></div>
+<div class="card"><small>Certification</small><b>Cloud Computing Fundamentals</b><p style="margin:6px 0 0">KodeKloud</p></div>
+<div class="card"><small>Certification</small><b>Amazon Elastic Compute Cloud (EC2)</b><p style="margin:6px 0 0">KodeKloud</p></div></div>
+<div class="cta" style="margin-top:56px"><h2 style="margin-bottom:12px">Interested in working together?</h2>
+<p>Explore my experience, technical skills, projects and academic background.</p>
+<div class="row"><a class="btn p" href="#" download="Khushi_Parmar_Resume.pdf">Download Resume</a><a class="btn" href="#contact">Contact Me</a></div></div></div></section>
+
+<section id="contact"><div class="wrap rv ct"><span class="eyebrow">06 — Contact</span><h2>Let's build something meaningful.</h2>
+<p>I'm open to opportunities, collaborations, internships and interesting software projects.</p>
+<p><a href="mailto:khushiparmar3124@gmail.com" style="color:var(--tx)">khushiparmar3124@gmail.com</a><br>Bhopal, Madhya Pradesh, India</p>
+<div class="row"><a class="btn p" href="mailto:khushiparmar3124@gmail.com">Email</a><a class="btn" href="#">GitHub</a><a class="btn" href="#">LinkedIn</a></div></div></section>
+</main>
+
+<footer><div class="wrap"><div><b style="color:var(--tx)">Khushi Parmar</b><p style="margin:6px 0 0">Building intelligent software with code, creativity and curiosity.</p></div>
+<nav aria-label="Footer"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+<div style="width:100%">© 2026 Khushi Parmar. All rights reserved.</div></div></footer>
+
+<script>
+const S={"Programming":["C++","C","Python","JavaScript","Dart","SQL","HTML"],"Frontend":["React.js","Tailwind CSS","REST API Integration"],"Backend":["Flask","FastAPI","Node.js","RESTful APIs","JWT Authentication"],"Databases & Infrastructure":["MySQL","PostgreSQL","Docker","Schema Design","Query Optimization"],"AI & Integration":["Ollama","Claude","LLM APIs","Prompt Engineering","Whisper Speech-to-Text","FAISS","AI-based Systems"],"Tools":["Git","GitHub","VS Code","npm"]};
+const g=document.getElementById('skg');
+for(const k in S){const d=document.createElement('div');d.className='card';const h=document.createElement('h3');h.textContent=k;const t=document.createElement('div');t.className='tags';S[k].forEach(x=>{const s=document.createElement('span');s.className='tag';s.textContent=x;t.appendChild(s)});d.append(h,t);g.appendChild(d)}
+const hd=document.getElementById('hd'),lk=document.getElementById('lk'),bg=document.getElementById('bg');
+addEventListener('scroll',()=>hd.classList.toggle('s',scrollY>20),{passive:true});
+bg.onclick=()=>{const o=lk.classList.toggle('o');bg.setAttribute('aria-expanded',o)};
+lk.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{lk.classList.remove('o');bg.setAttribute('aria-expanded',false)}));
+const secs=[...document.querySelectorAll('section')],navs=[...lk.querySelectorAll('a[href^="#"]:not(.btn)')];
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in')}}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+const so=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){const id=x.target.id==='hero'?'home':x.target.id;navs.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+id))}}),{rootMargin:'-45% 0px -50% 0px'});
+secs.forEach(s=>so.observe(s));document.getElementById('hero').id='hero';
+const hero=document.getElementById('hero');const a=document.createElement('a');a.id='home';a.style.cssText='position:absolute;top:0';hero.prepend(a);
+const c=document.getElementById('grid'),x=c.getContext('2d'),rm=matchMedia('(prefers-reduced-motion:reduce)').matches;let W,H,t=0;
+function rs(){W=c.width=c.offsetWidth;H=c.height=c.offsetHeight}rs();addEventListener('resize',rs);
+function dr(){x.clearRect(0,0,W,H);const s=56,o=(t*.15)%s;x.strokeStyle='rgba(255,255,255,.05)';x.lineWidth=1;x.beginPath();
+for(let i=-s;i<W+s;i+=s){x.moveTo(i+o,0);x.lineTo(i+o,H)}for(let j=-s;j<H+s;j+=s){x.moveTo(0,j+o);x.lineTo(W,j+o)}x.stroke();
+const g2=x.createRadialGradient(W/2,H/2,H*.2,W/2,H/2,H*.9);g2.addColorStop(0,'rgba(10,10,11,0)');g2.addColorStop(1,'rgba(10,10,11,1)');x.fillStyle=g2;x.fillRect(0,0,W,H);
+t++;if(!rm)requestAnimationFrame(dr)}dr();
+</script>
+</body>
+</html>
